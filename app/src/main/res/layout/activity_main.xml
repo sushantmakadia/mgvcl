@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+
+    tools:context="com.example.sushant.parden.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="what is your name"
+        android:id="@+id/tv1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+    />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:orientation="horizontal"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+       android:id="@+id/rg1"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <RadioButton
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="koli"
+            android:id="@+id/rb3"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/tv1"
+            android:buttonTint="@color/colorPrimary"
+
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:textColor="#000000"
+            android:layout_toRightOf="@id/rb3"
+            android:layout_marginLeft="170dp"
+            android:text="alok"
+            android:buttonTint="@color/colorPrimary"
+
+
+            />
+    </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="gender"
+            android:id="@+id/tv2"
+            android:layout_below="@id/rg1"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rg2"
+            android:layout_marginBottom="5dp"
+
+            >
+
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="koli"
+                android:id="@+id/rb4"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/tv2"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv2"
+                android:textColor="#000000"
+                android:layout_toRightOf="@id/rb4"
+                android:layout_marginLeft="30dp"
+                android:text="alok"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+            <RadioButton
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="koli"
+                android:id="@+id/rb5"
+                android:layout_marginLeft="30dp"
+                android:buttonTint="@color/colorPrimary"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1"
+                android:textColor="#000000"
+                android:layout_toRightOf="@id/rb3"
+                android:layout_marginLeft="30dp"
+                android:text="alok"
+
+                android:buttonTint="@color/colorPrimary"
+            />
+        </RadioGroup>
+
+
+        <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:hint="countinue"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="30dp"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/b1"
+            android:background="@drawable/shape"
+            android:hint="countinue"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="100dp"/>
+</RelativeLayout>
+</RelativeLayout>
